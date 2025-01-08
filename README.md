@@ -15,12 +15,33 @@ O projeto está dividido em dois arquivos principais:
 funcoes.py: Contém toda a lógica e funções necessárias para o funcionamento do programa.
 interface.py: Responsável pela criação e organização da interface gráfica.
 
-### Como Executar
+## Por onde começar
+
+Para utilizar localmente , precisa seguir os requesitos abaixo:
+
+### Prerequisitos
 
 Certifique-se de ter o Python e o Tkinter instalados.
+INSTALAR O TKINTER NO WINDOWS(caso não esteja instalado):
+
+```sh
+pip install tk
+```
+
+INSTALAR O TKINTER LINUX
+
+```sh
+python3 -m tkinter
+```
+
+3. Para fins educativos use uma api free em
+
+```sh
+[https://mockapi.io/]
 Execute o arquivo interface.py
 Adicione, edite, marque ou exclua tarefas conforme desejado.
 As alterações serão salvas automaticamente.
+```
 
 ### Funcionalidades
 

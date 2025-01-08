@@ -90,6 +90,8 @@ def editar_tarefa(tarefas, tarefa, frame_tarefas):
   nova_janela = tk.Toplevel(frame_tarefas)
   nova_janela.title("Editar Tarefa")
   nova_janela.configure(bg="#001F3F")
+  nova_janela.geometry("250x150") #Tamanho da janela
+
 
 
   frame_editar = tk.Frame(nova_janela, bg="#001F3F")
